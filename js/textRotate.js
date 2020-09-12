@@ -41,10 +41,10 @@ $(document).ready(function () {
       if ($(".numbers-wrapper").is(":visible") == true) {
         var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(" ");
 
-        $("#coded-lines").animateNumber({ number: 20000, numberStep: comma_separator_number_step }, 2000);
-        $("#pages across my fingers leafed through").animateNumber({ number: 5000, numberStep: comma_separator_number_step }, 2000);
-        $("#Number of books I've read").animateNumber({ number: 20, numberStep: comma_separator_number_step }, 2000);
-        $("#projects-completed").animateNumber({ number: 6, numberStep: comma_separator_number_step }, 2000);
+        // $("#coded-lines").animateNumber({ number: 100000, numberStep: comma_separator_number_step }, 2000);
+        // $("#pages across my fingers leafed through").animateNumber({ number: 5000, numberStep: comma_separator_number_step }, 2000);
+        // $("#Number of books I've read").animateNumber({ number: 20, numberStep: comma_separator_number_step }, 2000);
+        // $("#projects-completed").animateNumber({ number: 15, numberStep: comma_separator_number_step }, 2000);
 
         $(window).off('scroll');
       }
@@ -63,11 +63,11 @@ var skills = [
   {
     "header": "INTERESTS",
     "captions": [
-      "VLSI Design",
-      "Web",
-      "PWAs",
-      "Python",
-      "AI/ML"
+      "Photography",
+      "AI/ML",
+      "Data Science",
+      "DS",
+      "  DevOps"
     ],
     "values": [
       0.90,
@@ -78,13 +78,13 @@ var skills = [
     ]
   },
   {
-    "header": "CORE",
+    "header": "Languages",
     "captions": [
-      "CSS",
-      "HTML",
-      "VHDL",
-      "Embedded C",
-      "   PcbDesign"
+      "JavaScript",
+      "C/C++",
+      "Python",
+      "SQL",
+      "   "
     ],
     "values": [
       0.70,
@@ -97,11 +97,11 @@ var skills = [
   {
     "header": "TOOLS",
     "captions": [
-      "Xilinx",
-      "Proteus",
-      "Django",
+      "Jenkins",
+      "SonarQube   ",
+      "Atlassian Tools",
       "Git",
-      "Linux"
+      "  Anaconda"
     ],
     "values": [
       0.70,

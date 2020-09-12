@@ -161,7 +161,7 @@ p {
 /* ////////////////////////// Preloader ////////////////////// */
 .wrapper {
   width:100%;
-  background-color:#41b0bf;
+  background-color:#293744;
   height:80px;
   position:fixed;
   top:0px;
@@ -223,11 +223,11 @@ ul.menu li a:hover {
   }
 }
 section.intro {
-  background:url(../img/clouds.png) repeat-x top center;
+  background:url(../img/background.jpg) repeat-x top center;
   background-size:contain;
   background-repeat:repeat;
   /*animation:slideleft 20000s infinite linear;-webkit-animation:slideleft 20000s infinite linear;width:100%;*/
-  background-color:#41b0bf;
+  background-color:#293744;
   padding-bottom:70px;
   position:relative;
   border-right:20px solid #fff;
@@ -391,7 +391,7 @@ a.email:visited {
 }
 section.quotes {
   /*background:#ffc548;*/
-  background:#e55c4c;
+  background:#293744;
   border-left:20px solid white;
   border-right:20px solid white;
   border-bottom:20px solid white;
@@ -481,8 +481,8 @@ section.myskills p {
   cursor:pointer;
 }
 section.projects {
-  background:#303030;
-  border:20px solid white;
+  background:#293744;
+  border:20px solid #fff;
 }
 section.projects h2.name {
   font-size:30px;
@@ -811,6 +811,6 @@ span.title {
   font-family:'Sacramento',cursive;
   text-transform:none;
   font-weight:400;
-  color:#41b0bf !important;
+  color:#293744 !important;
   font-size: 3em !important;
 }
